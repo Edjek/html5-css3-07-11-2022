@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML - Form</title>
+    </head>
+    <body>
+        <div>
+            <h1>Les formulaires</h1>
+            <form>
+                <div>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" />
+                </div>
+                
+                <div>
+                    <label for="pswd">mot de passe</label>
+                    <input type="password" id="pswd" />
+                </div>
+                
+                <div>
+                    <label for="email">email</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div>
+                    <label for="date">date</label>
+                    <input type="date" id="date">
+                </div>
+
+                <div>
+                    <label for="color">couleur</label>
+                    <input type="color" id="color">
+                </div>
+
+                <div>
+                    <label for="message">message</label>
+                    <textarea  id="message" ></textarea>
+                </div>
+
+                <div>
+                    <label for="car">quel est votre véhicule</label>
+                    <select id="car">
+                        <option value="car">voiture</option>
+                        <option value="bike">vélo</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Quel sport pratiquez-vous?</p>
+                    <label for="foot">foot</label>
+                    <input type="checkbox" value="foot" id="foot">
+                    <label for="climb">escalade</label>
+                    <input type="checkbox" value="climb" id="climb">
+                </div>
+
+                <div>
+                    <p>Quel est votre sexe?</p>
+                    <label for="men">homme</label>
+                    <input type="radio" value="men" name="sex" id="men">
+                    <label for="women">femme</label>
+                    <input type="radio" value="women" name="sex" id="women">
+                </div>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </body>
+</html>
