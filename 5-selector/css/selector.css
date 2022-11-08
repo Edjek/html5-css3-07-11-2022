@@ -1,0 +1,42 @@
+/* Je suis un commentaire CSS */
+
+/* Style par defaut dont toute la page va hériter en cascade */
+/* lorsque l'on met du style sur une balise parente les enfants en héritent */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* On peut selectionner les noms de balise HTML */
+/* Conséquence tous les éléments de ce type seront modifiés */
+h1 {
+    color: red;
+}
+
+h2 {
+    color: #4169e1;
+}
+
+/* On peut selectionner des balises spécifiques grâce aux class en utlisant le . */
+/* Conséquence tous les element qui ont cette class seront modifiés */
+.subtitle {
+    color: green;
+}
+
+/* On peut selectionner une balise spécifique grâce à son id en utilisant un # */
+/* Conséquence l'element qui a cet id sera modifié */
+/* On préfère laisser les ID au Javascript sauf exception */
+#subtitle {
+    color: orange;
+}
+
+/* Je peux selectionner plusieurs elements en les séparant par une virgule */
+.test,
+h4 {
+    color: pink;
+}
+
+/* On peut selectionner des balises spécifiques par selecteur descendant */
+.section p {
+    color: red;
+}

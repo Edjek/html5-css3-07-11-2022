@@ -1,0 +1,23 @@
+h1 {
+    color: pink;
+}
+
+h2 {
+    color: blue;
+}
+
+.orange, h4 {
+    color: orange;
+}
+
+.purple, .section h3 {
+    color: purple;
+}
+
+.red {
+    color: red;
+}
+
+.list {
+    color: green;
+}

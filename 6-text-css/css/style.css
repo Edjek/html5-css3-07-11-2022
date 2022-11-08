@@ -1,0 +1,34 @@
+body {
+    /* Police de caractère */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Taille de la police */
+    font-size: 20px;
+
+    /* Epaisseur de la police */
+    font-weight: normal;
+    /* lighter | normal | bold */
+
+    /* Style de la police */
+    font-style: normal;
+    /* oblique | normal |italic */
+
+    /* Alignement du texte */
+    text-align: center;
+    /* center | left | right | justify */
+}
+
+p {
+    /* Majuscule, minuscule */
+    text-transform: uppercase;
+    /* lowercase | none | capitalize */
+
+    /* Couleur du texte */
+    color: #333;
+}
+
+/* La span est la balise inline générique, elle permet de cibler un bout de texte */
+span {
+    font-weight: bold;
+    font-style: italic;
+}
