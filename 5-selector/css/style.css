@@ -6,18 +6,18 @@ h2 {
     color: blue;
 }
 
-.orange, h4 {
+.txt-orange, h4 {
     color: orange;
 }
 
-.purple, .section h3 {
+.txt-purple, .section h3 {
     color: purple;
 }
 
-.red {
+.subtitle-red {
     color: red;
 }
 
-.list {
+.list-movie {
     color: green;
 }
