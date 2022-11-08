@@ -16,6 +16,8 @@ body {
     /* Alignement du texte */
     text-align: center;
     /* center | left | right | justify */
+
+    color: #333;
 }
 
 p {
@@ -31,4 +33,28 @@ p {
 span {
     font-weight: bold;
     font-style: italic;
+}
+
+li {
+    /* Supprime les puces */
+    list-style: none;
+}
+
+
+.baleine {
+    font-size: 60px;
+}
+
+a {
+    /* Change la couleur de fond */
+    background-color: yellow;
+    /* Style sur le texte (souligné, barré..) */
+    text-decoration: none;
+    /* underline */
+
+    color: red;
+}
+
+a:hover {
+    color: pink;
 }
