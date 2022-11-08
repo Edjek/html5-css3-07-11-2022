@@ -1,6 +1,6 @@
 # HTML5-CSS3
 
-Formation et exercice au Dev Web
+Formation et exercice Dev Web
 
 ## Description
 
