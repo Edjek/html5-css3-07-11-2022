@@ -3,7 +3,7 @@ h1 {
     color: #fff;
 }
 
-.subtitle {
+.txt-italic {
     font-style: italic;
 }
 
@@ -11,7 +11,7 @@ h1 {
     text-align: right;
 }
 
-.subtitle-2 {
+.subtitle-uppercase {
     text-transform: uppercase;
 }
 
@@ -27,7 +27,7 @@ h2 {
     color: blue;
 }
 
-.orange,
+.list-sport,
 h4 {
     color: orange;
 }
