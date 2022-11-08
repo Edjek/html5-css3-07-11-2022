@@ -1,0 +1,30 @@
+body {
+}
+
+h1 {
+    background-color: green;
+    text-align: center;
+}
+
+.container {
+    /* Largeur */
+    width: 60%;
+
+    /* Hauteur */
+    height: 300px;
+
+    /* margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px; */
+    /* margin: 100px 50px 40px 50px; */
+    /* margin: 100px 50px; */
+    /* margin: 100px; */
+    margin: 100px auto;
+
+    /* padding-top: 30px ;
+    padding-left: 30px; */
+    padding: 50px;
+
+    background-color: rgb(44, 102, 228);
+}

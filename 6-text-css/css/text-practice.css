@@ -1,0 +1,50 @@
+h1 {
+    background-color: pink;
+    color: #fff;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.send-right {
+    text-align: right;
+}
+
+.subtitle-2 {
+    text-transform: uppercase;
+}
+
+.list-item {
+    font-weight: bold;
+}
+
+h6 {
+    text-decoration: underline;
+}
+
+h2 {
+    color: blue;
+}
+
+.orange,
+h4 {
+    color: orange;
+}
+
+.purple,
+.section h3 {
+    color: purple;
+}
+
+.red {
+    color: red;
+}
+
+.red:hover {
+    color: pink;
+}
+
+.list {
+    color: green;
+}
