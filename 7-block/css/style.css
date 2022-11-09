@@ -1,20 +1,37 @@
+/*  Reset CSS, je reinitialise les valeurs et comportements par defaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    font-family: serif;
 }
 
 h1 {
-    background-color: green;
+    width: 500px;
+    margin: 50px auto;
+    background-color: #3e913e;
     text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-    background-color: rgb(44, 102, 228);
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
 
     /* Largeur */
     /* min-width: 700px; */
     width: 60%;
+    min-width: 300px;
+    max-width: 800px;
 
     /* Hauteur */
-    height: 300px;
+    /* height: 300px; */
+    min-height: 200px;
 
     /* Margin sert à mettre de la marge exterieur, il y a plein de raccourcis */
 
@@ -37,6 +54,37 @@ h1 {
     /* padding-left: ; */
     /* padding: 40px 30px 30px 50px; */
     /* padding: 10px 20px; */
-    padding: 20px;
+    padding: 50px;
 
+    /* La propriété raccourci { border: } permet de preciser la taille, le style et la couleur de la bordure */
+    border: 1px solid #000;
+
+    /* { border-radius: } permet d'arrondir les angles */
+    border-radius: 10px;
+
+    /* { box-shadow: }  permet de créer une ombre */
+    box-shadow: 4px 4px 8px #333;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #eb5858;
+    border-radius: 50%;
+    margin: auto;
+    /* { box-shadow: }  permet de créer une ombre */
+    box-shadow: 4px 4px 10px #999;
+}
+
+.definition {
+    margin: 50px;
+    color: #333;
+    text-align: center;
+}
+
+span {
+    /* La valeur par defaut dun element inline est { display: inline; }*/
+    /* display: inline; */
+    font-weight: bold;
+    font-style: italic;
 }
