@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.about-us {
+    text-align: center;
+    border: 1px solid #000;
+    width: 90%;
+    max-width: 900px;
+    min-width: 400px;
+    min-height: 250px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-us-link {
+    text-decoration: none;
+    color: red;
+}
+
+.about-us-link:hover {
+    color: pink;
+}
+
+.about-us p {
+    margin-bottom: 15px;
+}

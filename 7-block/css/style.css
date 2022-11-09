@@ -19,6 +19,9 @@ h1 {
 }
 
 .container {
+    /* La valeur par defaut d'un element block est { display: block; }*/
+    /* display: block; */
+
     background-color: #3498db;
     color: #fff;
     text-align: center;
@@ -57,7 +60,7 @@ h1 {
     padding: 50px;
 
     /* La propriété raccourci { border: } permet de preciser la taille, le style et la couleur de la bordure */
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 
     /* { border-radius: } permet d'arrondir les angles */
     border-radius: 10px;
@@ -83,7 +86,7 @@ h1 {
 }
 
 span {
-    /* La valeur par defaut dun element inline est { display: inline; }*/
+    /* La valeur par defaut d'un element inline est { display: inline; }*/
     /* display: inline; */
     font-weight: bold;
     font-style: italic;
