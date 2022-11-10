@@ -6,11 +6,13 @@ h2 {
     color: blue;
 }
 
-.txt-orange, h4 {
+.txt-orange,
+h4 {
     color: orange;
 }
 
-.txt-purple, .section h3 {
+.txt-purple,
+.section h3 {
     color: purple;
 }
 
